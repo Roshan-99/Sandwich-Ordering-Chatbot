@@ -1,4 +1,6 @@
 Step 1:
+In this section, list of the sandwich choices available (including the one named after you) with the description of each, and the breads, spreads, options, and exceptions offered.
+
 Sandwiches offered =
 1)Roshan's chicken sandwich
  Ingredients : Chicken, Tomatoes, Onions, Pickles, Cucumber, Avocado
@@ -27,6 +29,12 @@ Exceptions (removables)= Tomatoes, Onions, Pickles, Cucumber, Avocado, Lettuce, 
 
 ------------------------------------------------------------------------------------------------------------------------
 Step 2:
+Contains - 
+• The list of terms you treat as equivalent
+• The list of terms like “Please” etc. that you will ignore.
+• The different ways you will allow customers to specify exceptions like “Hold the mayo
+
+
 Items treated equal or as synonyms
 
 BREAD: {'Multigrain': ["multigrain bread", "Multi-grain", "multi-grain bread", "multigrain", "multi-grain"],
@@ -77,6 +85,8 @@ Where X can be one of the exceptions items
 
 ------------------------------------------------------------------------------------------------------------------------
 Step 3:
+Commands used to run the program
+
 Programming language used : Python
 
 To run the program.
@@ -94,10 +104,12 @@ such as the words that are considered same and header information
 
 ------------------------------------------------------------------------------------------------------------------------
 Step 4:
+Example 1,2,3 show the working of program correctly, example 4 shows the program failing to perform correctly
+
 
 Example 1:
 
-C:\Users\rosha\Desktop\Assignments\MS\AI\Code\Chatbot> python sandwich.py
+python sandwich.py
 Hi! What would you Like to have?
 Hey! whats on the menu ?
 Here is the menu:
@@ -131,7 +143,7 @@ Order confirmed, have a great Day
 
 Example 2:
 
- C:\Users\rosha\Desktop\Assignments\MS\AI\Code\Chatbot> python sandwich.py
+  python sandwich.py
 Hi! What would you Like to have?
 I would like a tuna sandwich without Pickles
 Tuna sandwich comes with Rye as default. Respond yes to agree, no to choose something else
@@ -155,7 +167,7 @@ Order confirmed, have a great Day
 
 Example 3:
 
-C:\Users\rosha\Desktop\Assignments\MS\AI\Code\Chatbot> python sandwich.py
+ python sandwich.py
 Hello! What would you Like to have?
 Whats on the menu
 Here is the menu:
@@ -188,7 +200,7 @@ Order confirmed, have a great Day
 #failure case
 Example 4:
 
-C:\Users\rosha\Desktop\Assignments\MS\AI\Code\Chatbot> python sandwich.py
+ python sandwich.py
 Greetings human! What would you Like to have?
 roshans sandwich with rye and butter without tomatoes or pickles. Please remove the lettuce as well
 
@@ -210,6 +222,8 @@ multiple elements are present after without or remove or other exception keyword
 
 ------------------------------------------------------------------------------------------------------------------------
 Step 5:
+Thoughts about the project
+
 Easiest part of the assignment: Easy to map which word belongs to which row/column in the filled out menu.
 
 Hardest Part of the assignment: It was really hard to code quickly while thinking about scalability.
